@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T15:07:25.558Z" agent="5.0 (Windows)" etag="mMu7nfIlgvxp64P_ixWb" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T16:13:30.038Z" agent="5.0 (Windows)" etag="hyN7rd_OebABKo4OcaZ-" version="20.2.5" type="github">
   <diagram id="CX5lCBe5LM3Lo2Z-0TtP" name="Seite-1">
-    <mxGraphModel dx="1010" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1010" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="B9oCBAkTF9d_TvBwaNAW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B9oCBAkTF9d_TvBwaNAW-4" target="B9oCBAkTF9d_TvBwaNAW-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B9oCBAkTF9d_TvBwaNAW-4" value="&lt;div&gt;Central router&lt;/div&gt;&lt;div&gt;distributes 192.168.1.0/24&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B9oCBAkTF9d_TvBwaNAW-4" value="&lt;div&gt;Central router&lt;/div&gt;&lt;div&gt;distributes route 192.168.1.0/24&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B9oCBAkTF9d_TvBwaNAW-5" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -43,7 +43,7 @@
         <mxCell id="B9oCBAkTF9d_TvBwaNAW-12" value="PS3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="50" width="60" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="B9oCBAkTF9d_TvBwaNAW-22" value="WiFi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B9oCBAkTF9d_TvBwaNAW-21" target="B9oCBAkTF9d_TvBwaNAW-7">
+        <mxCell id="B9oCBAkTF9d_TvBwaNAW-22" value="WiFi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="B9oCBAkTF9d_TvBwaNAW-36" target="B9oCBAkTF9d_TvBwaNAW-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B9oCBAkTF9d_TvBwaNAW-24" value="Ethernet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B9oCBAkTF9d_TvBwaNAW-21" target="B9oCBAkTF9d_TvBwaNAW-23">
@@ -72,6 +72,18 @@
         </mxCell>
         <mxCell id="B9oCBAkTF9d_TvBwaNAW-29" value="&lt;div&gt;CloudStack&lt;/div&gt;Node&lt;br&gt;PC 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="585" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="B9oCBAkTF9d_TvBwaNAW-36" value="wifi" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="515" y="310" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B9oCBAkTF9d_TvBwaNAW-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="B9oCBAkTF9d_TvBwaNAW-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="330" as="sourcePoint" />
+            <mxPoint x="580" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9oCBAkTF9d_TvBwaNAW-39" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;192.168.178.250&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="577" y="285" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
