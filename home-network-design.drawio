@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T13:01:03.803Z" agent="5.0 (Windows)" etag="oK19EsrRVom-fYQdxGUn" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T15:06:12.156Z" agent="5.0 (Windows)" etag="3VULWjDRdSDb8TjRbWOB" version="20.2.5" type="github">
   <diagram id="CX5lCBe5LM3Lo2Z-0TtP" name="Seite-1">
-    <mxGraphModel dx="870" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1010" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="B9oCBAkTF9d_TvBwaNAW-5" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="40" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="B9oCBAkTF9d_TvBwaNAW-7" value="Switch / WiFi" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
+        <mxCell id="B9oCBAkTF9d_TvBwaNAW-7" value="&lt;div&gt;Switch / WiFi&lt;/div&gt;&lt;div&gt;192.168.178.0/24&lt;br&gt;&lt;/div&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
           <mxGeometry x="360" y="190" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B9oCBAkTF9d_TvBwaNAW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.118;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B9oCBAkTF9d_TvBwaNAW-9" target="B9oCBAkTF9d_TvBwaNAW-7">
@@ -52,7 +52,7 @@
         <mxCell id="B9oCBAkTF9d_TvBwaNAW-21" value="&lt;div&gt;PI&lt;/div&gt;&lt;div&gt;Router&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="330" width="60" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="B9oCBAkTF9d_TvBwaNAW-23" value="L2 Switch" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
+        <mxCell id="B9oCBAkTF9d_TvBwaNAW-23" value="&lt;div&gt;L2 Switch&lt;/div&gt;&lt;div&gt;192.168.1.0/24 (Management and NATs)&lt;br&gt;&lt;/div&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
           <mxGeometry x="360" y="460" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B9oCBAkTF9d_TvBwaNAW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.147;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B9oCBAkTF9d_TvBwaNAW-25" target="B9oCBAkTF9d_TvBwaNAW-23">
