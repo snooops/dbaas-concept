@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T07:46:26.306Z" agent="5.0 (Windows)" etag="ieySL-pTiiJpPLVIbVNj" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-23T07:48:48.007Z" agent="5.0 (Windows)" etag="J_xbeUhg7AY4X4xRsVvg" version="20.2.5" type="github">
   <diagram id="jKLpedxOHFE1lHcojtC0" name="Seite-1">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jD4Smft2H9kW2Vvw2FEG-4" value="&lt;div&gt;OpenWRT&lt;/div&gt;&lt;div&gt;PI 4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="341" y="440" width="143" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jD4Smft2H9kW2Vvw2FEG-24" value="wlan0" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="246" y="449" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jD4Smft2H9kW2Vvw2FEG-23" value="eth0" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="457" y="449" width="130" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="jD4Smft2H9kW2Vvw2FEG-1" value="&lt;div&gt;Fritz.Box&lt;/div&gt;&lt;div&gt;192.168.178.1/24&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;route&lt;/div&gt;&lt;div&gt;192.168.2.0/24 gw 192.168.178.250&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="48" y="450" width="135" height="100" as="geometry" />
         </mxCell>
@@ -12,9 +21,6 @@
         </mxCell>
         <mxCell id="jD4Smft2H9kW2Vvw2FEG-2" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="55.5" y="303" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="jD4Smft2H9kW2Vvw2FEG-4" value="&lt;div&gt;OpenWRT&lt;/div&gt;&lt;div&gt;PI 4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="341" y="440" width="143" height="120" as="geometry" />
         </mxCell>
         <mxCell id="jD4Smft2H9kW2Vvw2FEG-8" value="WiFi" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="jD4Smft2H9kW2Vvw2FEG-1" target="jD4Smft2H9kW2Vvw2FEG-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
